@@ -1,4 +1,4 @@
-                                                // Assignment 1
+                                                // Chapter 1
                                                 
                                                 //Question No 1
 alert("Hellow world")
@@ -17,7 +17,7 @@ alert("Hello..I can run JS through my web browser console")
                                                 //Question No 6 & 7
 //done  
 
-                                                //Assignment 2
+                                                //Chapter 2
 
                                                 //Question No 1
 var username;
@@ -48,7 +48,7 @@ console.log("Yah1 i can write HTML content through Javascript")
 alert("▬▬▬▬▬▬▬▬▬ஜ ۩۞۩ ஜ▬▬▬▬▬▬▬▬▬")
 document.write("▬▬▬▬▬▬▬▬▬END▬▬▬▬▬▬▬▬▬")
                                                 
-                                                //Assignment No 3
+                                                //Chapter No 3
                                                 
                                                 //Question No 1
 var Myage="22";
@@ -66,7 +66,7 @@ var Product_title="5 T-shirt(s)";
 var Quantity="XYZ Clothing store";
 document.write(Visitors_name + "ordered" + Product_title + "from" + Quantity)
 
-                                                //Assignment 4
+                                                //Chapter 4
 
                                                 //Question No 1
 var a,b,c;
@@ -75,7 +75,7 @@ var a,b,c,d,e, f, g, h, i, j;
                                                 //Question No 3
 document.write("A heading stating Rules for naming JS variables \nVariable names can only contain ______, ______, ______ and ______. For example $my_1stVariable \n Variables must begin with a ______, ______ or _____. For example $name, _name or name \n Variable names are case _________ \n Variable names should not")
 
-                                                //assignment No. 5
+                                                //Chapter No. 5
 
                                                 //Question No 1
 var a=3;
@@ -160,7 +160,7 @@ var tt = (e_a - c_a)*365*s_d;
 document.write("Your favourite snack: " + fav_snack + "<br>" + "current age : " + c_a + "<br>" + "estimated max age : " + e_a + "<br>" + "Amount of snack per day : " + s_d + "<br>" + "you will need " + tt + "oreo to last you until the rip old age of " + e_a)
  
 
-                                                //Assignment No: 6
+                                                //Chapter No: 6-9
 
                                                 //Question No 1
 var a1= 10;
@@ -197,7 +197,7 @@ var Maths= +prompt("Enter marks obtained in Maths :")
 document.write("<pre>Subject  Total Marks  Marks  Obtained  Percentage</pre>" + "<br>" + "English" + "" + 100 + ""  + English + "" + English + "%")
 
 
-                                                //Assignment No 7                   
+                                                //Chapter No 9-11                   
                                                 //Question No 1
 var City = prompt("Enter your city name");
 if  (City=="karachi"){
@@ -317,7 +317,7 @@ if(operator == "/"){
     document.write(first_no / secomd_no)
 }
 
-                                                            //Assignment No 8
+                                                            //Chapter No 12-13
                                                             //question no.1
 var ch = prompt("Enter a character: ");
 var ascii = ch.charCodeAt(0);
@@ -395,7 +395,7 @@ if(time>=2100 && time<= 2359){
     document.write("Good night")
 }
 
-                                                            //Assignment no. 9
+                                                            //Chapter no. 14-16
                                                             //Question no.1
 var arr1= []
                                                             //question no. 3
