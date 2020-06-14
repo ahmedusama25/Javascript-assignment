@@ -118,17 +118,307 @@ for (var i=1; i<=10; i++){
     document.write(number + "*" + i + "=" + mul + '\n')
 }
                                                 //Question No 6
-var C = 7
+var C = 25
 var F = (C + 9/5) + 32
-document.write(F)
-                                                //Question No 
-                                                //Question No 
-                                                //Question No 
-                                                //Question No 
-                                                //Question No 
-                                                //Question No 
-                                                //Question No 
+document.write(C + "  is " + F)
+var far = 97
+var cal = ( cal * 9/5) + 32
+document.write(far + "is" + cal)
+                                                //Question No 7
+var pr1 = 650;
+var pr2 = 100;
+var q1 = 3;
+var q2 = 7;
+var s_c = 100
+document.write("price of item 1 : " + pr1 + "<br>" + "quantity of item 1 is : " + q1 + "<br>" + "price of item 2 is : " + pr2 + "<br>" + "quantity of item 2 is : " + q2 + "<br>" + "shipping charges : " + s_c + "<br>" + "total amount is : " + (pr1*q1+pr2*q2+s_c))
 
-                                                Assignment No: 6
+                                                //Question No 8
+var m_a = 870;
+var t_m = 1100;
+document.write("Marks obtained : " + m_a + "<br>" + "Total marks : " + t_m + "<br>" + "Percentage : " + (870/1100)*100 + "%")
+                                                //Question No 9
+var C_C = 10*104.80 + 25*28;
+document.write("Total Currency in pkr : " + C_C)
+                                                //Question No 10
+var R_V = ((5+5)*10)/2;
+document.write(R_V)
+                                                //Question No 11
+var c_y = 2020;
+var b_y = 1997;
+document.write("your age might be " + (c_y - b_y) + " or " + (c_y - b_y - 1)) 
+                                                //Question No 12
+var radius  = 2;
+var Area_c = Math.PI * radius**2;
+var circum = 2 * Math.PI * radius
+document.write(Area_c + " " + circum)  
+                                                //Question No 13
+var fav_snack = "Oreo";
+var c_a = 22;
+var e_a = 71;
+var s_d= 3;
+var tt = (e_a - c_a)*365*s_d;
+document.write("Your favourite snack: " + fav_snack + "<br>" + "current age : " + c_a + "<br>" + "estimated max age : " + e_a + "<br>" + "Amount of snack per day : " + s_d + "<br>" + "you will need " + tt + "oreo to last you until the rip old age of " + e_a)
+ 
+
+                                                //Assignment No: 6
 
                                                 //Question No 1
+var a1= 10;
+document.write("Value of a is : " + a1 + "<br>")
+document.write("......................................... <br>" )
+document.write("Value of ++a is : " + ++a1 + "<br>")
+document.write("Now the value of a is : " + a1 + "<br>")
+document.write("<br> The value of a++ is "+ a1++ + "<br>")
+document.write("Now the value of a is" + a1 + "<br>")
+document.write("<br> the value of --a is " + --a1 + "<br>")
+document.write("Now the value of a is : " + a1 + "<br>")
+document.write("<br> the value of a-- is " + a1-- + "<br>")
+document.write("Now the value of a is :" + a1 + "<br>")
+document.write("<br> The value of --a is : " + --a1 +"<br>")
+document.write("Now the value of a is : " + a1)
+                                                //Question No 2
+var a = 2 , b = 1;
+document.write("--a : " + (--a) + "<br>")
+document.write("--a - --b : " + (--a - --b) + "<br>")
+document.write("--a - --b + ++b : " + (--a - --b + ++b) + "<br>")
+document.write("--a - --b + ++b + b-- : " + (--a - --b + ++b + b--))
+                                                //Question No 3
+var a=message("ha jani kesa h?")
+document.write("Assalam o alikum")
+                                                //Question No 4
+var table=+prompt("Enter a no. :",5);
+for(var i=1; i<=10 ;i++){
+    document.write(table + " * " + i + " = " + (table*i) + "<br>")
+}
+                                                //Question No 6
+var English= +prompt("Enter marks obtained in English : ")
+var Urdu= +prompt("Enter marks obtained in Urdu : ") 
+var Maths= +prompt("Enter marks obtained in Maths :")
+document.write("<pre>Subject  Total Marks  Marks  Obtained  Percentage</pre>" + "<br>" + "English" + "" + 100 + ""  + English + "" + English + "%")
+
+
+                                                //Assignment No 7                   
+                                                //Question No 1
+var City = prompt("Enter your city name");
+if  (City=="karachi"){
+    document.write("Welcome to the City Of Light")
+}  
+                                                //Question No 2
+var Gender=prompt("male/female");
+if(Gender=="male"){
+    document.write("Good Morning Sir")
+}
+if(Gender=="female"){
+    document.write("good Morning Mam")
+}
+                                                //Question No 3
+var color = prompt("red/yellow/green")
+if(color=="red"){
+    document.write("Must Stop")
+}
+if(color=="yellow"){
+    document.write("ready to move")
+}
+if(color=="green"){
+    document.write("Move Now")
+}
+                                                //Question No 4
+var Quantity=+prompt("Enter the quantity of fuel in liters")
+if(Quantity == 0.25){
+    document.write("Please Refill your fuel tank")
+}
+                                                //Question No 5
+var a = 4; 
+if (++a === 5){ 
+    alert("given condition for variable a is true"); 
+}
+var b = 82; 
+if (b++ === 83){
+    alert("given condition for variable b is true"); 
+}
+var c = 12; 
+if (c++ === 13){ 
+    alert("condition 1 is true"); 
+} 
+if (c === 13){ 
+    alert("condition 2 is true"); 
+} 
+if (++c < 14){ 
+    alert("condition 3 is true"); 
+} 
+if(c === 14){ 
+    alert("condition 4 is true"); 
+}
+var materialCost = 20000; 
+var laborCost = 2000; 
+var totalCost = materialCost + laborCost; 
+if (totalCost === laborCost + materialCost){ 
+    alert("The cost equals"); 
+}
+if (true){ 
+    alert("True"); 
+} 
+if (false){ 
+    alert("False"); 
+}
+if("car" < "cat"){ 
+    alert("car is smaller than cat"); 
+}
+                                                //Question No 7
+var a= 2
+var b=+prompt("Enter a no.")
+if(b == a){
+    document.write("bingo")
+}
+if(b == a+1){
+    document.write("Close Enough To the Correct Answer")
+}
+                                                //Question No8
+var No = +prompt("enter a no.")
+if(No%3 == 0){
+    document.write("ahaaaa")
+}
+                                                //Question No 9
+var  number =+prompt("enter a no.")
+if(number%2 == 0){
+    document.write("its an even number")
+}
+else{
+    document.write("its an odd number")
+}
+                                                //Question No 10
+var temp=+prompt("enter the temperature")
+if(temp>=40){
+    document.write("It is too Hot")
+}
+if(temp>=30 && temp<40){
+    document.write("the weather today is Normal")
+}
+if(temp>20 && temp<30){
+    document.write("weather is cold toady")
+}
+if(temp>=10 && temp<20){
+    document.write("WOW! weather is so cold today")
+}
+                                                //Question No 11
+var first_no = +prompt("Enter first number");
+var secomd_no = +prompt("Enter second number");
+var operator = prompt("Enter an operation you want to perform i.e +,-,*,/")
+if(operator == "+"){
+    document.write(first_no + secomd_no)
+}
+if(operator == "-"){
+    document.write(first_no - secomd_no)
+}
+if(operator == "*"){
+    document.write(first_no * secomd_no)
+}
+if(operator == "/"){
+    document.write(first_no / secomd_no)
+}
+
+                                                            //Assignment No 8
+                                                            //question no.1
+var ch = prompt("Enter a character: ");
+var ascii = ch.charCodeAt(0);
+if (ascii>=65 && ascii<=90){
+    document.write("upper case character")
+}
+if(ascii>=97 && ascii<=123){
+    document.write("lower case character")
+}
+                                                            //question no. 2
+var var1=+prompt("Enter first number: ");
+var var2=+prompt("Enter  second number: ")
+if (var1> var2){
+    document.write("first number is greater than second number")
+}
+if (var1<var2){
+    document.write("second number is greater than forst number")
+}
+else{
+    document.write("both number are equal")
+}
+                                                            //question no. 3
+var input=+prompt("enter an integer")
+if(input>0){
+    document.write("+ve")
+}
+if(input<0){
+    document.write("-ve")
+}
+if(input==0){
+    document.write("number is zero")
+}
+                                                            //question no. 4
+var var3=prompt("Enter a character")
+if(var3=="a" || var3=="i" || var3=="e" || var3=="o" || var3=="u"){
+    document.write("vovel")
+}
+else{
+    document.write("False")
+}
+                                                            //question no. 5
+var password="aa22" 
+var attempt=prompt("Guess the password")
+if (attempt=null){
+    document.write("Please enter your password")
+}                                                     
+if(attempt == password){
+    document.write("Correct!The password your entered the original password")
+}
+if(attempt !== password){
+    document.write("Wrong password")
+}
+                                                            //question no. 6
+var hour = 13; 
+if (hour < 18) { 
+    greeting = "Good day"; 
+    document.write(greeting)
+}
+else{ 
+    greeting = "Good evening"; 
+    document.write(greeting)
+}
+                                                            //question no. 7
+time=prompt("Enter time in 24hrs format","eg: 1900 = 7 p.m")
+if(time == 0000 && time<1200 ){
+    document.write("Good Morning")
+}   
+if(time>=1200 && time< 1700){
+    document.write("Good After noon")
+}                                 
+if(time >= 1700 && time< 2100){
+    document.write("Good evening")
+}                        
+if(time>=2100 && time<= 2359){
+    document.write("Good night")
+}
+
+                                                            //Assignment no. 9
+                                                            //Question no.1
+var arr1= []
+                                                            //question no. 3
+var arr2=["usama","usamaa","usamaaa"]
+                                                            //question no.4
+var arr3=[1,2,3,4]
+                                                            //question no. 5
+var arr4=[true,false,true]
+                                                            //question no. 6
+var arr5=[1,"usama",true]
+                                                            //question no. 7
+var arr6=["SSC", "HSC" , "BCS" , "BS" , "BCOM" , "MS" , "M.", "Phil.", "PhD"]
+for(var i=1; i<=9; i++){
+    document.write(i + ") " + arr6[i-1] + "<br>")
+}
+                                                            //question no.8
+var arr7=["usama","naseem","ashraf"]
+var arr8=[320,420,450]
+for(var i=0; i<3; i++){
+    document.write("score of" + arr7[i] + "is" + arr8[i] + ". Percentage :" + arr8[i]*100/500 + "% <br>")
+}
+                                                            //question no. 9
+var arr9=["red","green","blue"]
+                                                            //question no. 10
+var points = [40, 100, 1, 5, 25, 10];
+points.sort(function(a, b){return a - b});
