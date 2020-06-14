@@ -422,3 +422,54 @@ var arr9=["red","green","blue"]
                                                             //question no. 10
 var points = [40, 100, 1, 5, 25, 10];
 points.sort(function(a, b){return a - b});
+                                                            //question no. 11
+                                                            //question no. 12
+                                                            //question no. 13
+                                                            //question no. 14
+                                                            //question no. 15
+
+                                                            //chapter no. 17-20
+                                                            //question no. 1
+var arr10=[[],[]]
+                                                            //question no. 2
+var arr11=[[0,1,2,3],[1,0,1,2],[2,1,0,1]]
+for(var i=0;1<3;i++){
+    document.write(arr11[i] + "<br>")
+}
+                                                            //question no. 3
+for (var i=0; i>=9;i++){
+    doc.write(i+1)
+    
+}
+                                                            //question no. 4
+var var10=+prompt("Enter the number you want table of:")
+var var11=+prompt("Enter the length of the table")
+for( var i=1;i<=var11;i++){
+    doc.write(var10 + "*" + i + "=" + var10*i + "<br>")
+}   
+                                                            //question no. 5
+var fruits = ['apple', 'banana', 'mango', 'orange', 'strawberry']
+for (var i=0;i<=length(fruit);i++){
+    doc.write("Element at index " + i + "is" + fruits[i] + "<br>")
+}
+                                                            //question no. 7
+
+for(var i=1;i<=15;i++){
+    doc.write(i + ",")
+}
+                                                            //questio no. 9
+var A = [24, 53, 78, 91, 12]
+var B=A[0]
+for (var i=0 ; i<=length(A); i++){
+    if(A[i]>A[i+1]){
+        B=A[i+1]
+    }
+    else{
+        continue
+    }
+}
+                                                            //question no.10
+for (var i=1; i<=20 ; i++){
+    doc.write(5*i)
+}
+
